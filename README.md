@@ -3,12 +3,14 @@
 <br/>
 
 ```
- █████╗ ██╗      ██████╗ ██████╗ ██████╗ ████████╗███████╗██╗  ██╗
-██╔══██╗██║     ██╔════╝██╔═══██╗██╔══██╗╚══██╔══╝██╔════╝╚██╗██╔╝
-███████║██║     ██║     ██║   ██║██████╔╝   ██║   █████╗   ╚███╔╝ 
-██╔══██║██║     ██║     ██║   ██║██╔══██╗   ██║   ██╔══╝   ██╔██╗ 
-██║  ██║███████╗╚██████╗╚██████╔╝██║  ██║   ██║   ███████╗██╔╝ ██╗
-╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝
+  █████╗  ██╗        ██████╗  ██████╗  ██████╗  ████████╗ ███████╗ ██╗  ██╗
+ ██╔══██╗ ██║       ██╔════╝ ██╔═══██╗ ██╔══██╗ ╚══██╔══╝ ██╔════╝ ╚██╗██╔╝
+ ███████║ ██║       ██║      ██║   ██║ ██████╔╝    ██║    █████╗    ╚███╔╝
+ ██╔══██║ ██║       ██║      ██║   ██║ ██╔══██╗    ██║    ██╔══╝    ██╔██╗
+ ██║  ██║ ██║       ╚██████╗ ╚██████╔╝ ██║  ██║    ██║    ███████╗ ██╔╝ ██╗
+ ╚═╝  ╚═╝ ╚═╝        ╚═════╝  ╚═════╝ ╚═╝  ╚═╝    ╚═╝    ╚══════╝ ╚═╝  ╚═╝
+
+          ░░░░░░░░░  AI - CORTEX  ░░░░░░░░░
 ```
 
 ### **Agentic RAG · Market Intelligence · v1.0**
@@ -38,12 +40,9 @@
 
 ## 📺 Demo
 
-> ⚠️ *Full demo walkthrough video coming soon. The embedded player below will be activated once recording is complete.*
-
 <div align="center">
 
-<!-- Replace VIDEO_ID with your actual YouTube video ID when ready -->
-[![AI Cortex Demo](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+[![AI Cortex Demo](https://img.youtube.com/vi/AG9QtcqAsw4/maxresdefault.jpg)](https://youtu.be/AG9QtcqAsw4)
 
 *▶ Click to watch: AI Cortex in action — query planning, retrieval, synthesis, and real-time fact verification*
 
