@@ -1,0 +1,27 @@
+/* ===== File: frontend/src/index.css ===== */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  /* Dynamically switch background and text color based on the theme */
+  @apply bg-gray-50 text-gray-900 dark:bg-gray-950 dark:text-gray-100 transition-colors duration-300;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { @apply bg-gray-300 dark:bg-gray-700 rounded-full; }
+::-webkit-scrollbar-thumb:hover { @apply bg-gray-400 dark:bg-gray-600; }
+
+/* Dynamic Glass Panel */
+.glass-panel {
+  @apply bg-white/90 dark:bg-gray-900/70 backdrop-blur-md border border-gray-200 dark:border-white/5 shadow-md dark:shadow-none;
+}
+
+.glow-focus:focus-within {
+  @apply border-indigo-400 dark:border-indigo-500/50 shadow-[0_0_15px_rgba(99,102,241,0.15)] dark:shadow-[0_0_20px_rgba(99,102,241,0.2)];
+}

@@ -1,0 +1,26 @@
+# ===== File: docker-compose.yml =====
+version: '3.8'
+
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: aicortex_qdrant
+    ports:
+      - "6334:6333" # Unique port
+      - "6335:6334"
+    volumes:
+      - ./qdrant_data:/qdrant/storage
+
+  mongodb:
+    image: mongo:latest
+    container_name: aicortex_mongo
+    ports:
+      - "27018:27017" # Unique port
+    volumes:
+      - ./mongo_data:/data/db
+
+  redis:
+    image: redis:alpine
+    container_name: aicortex_redis
+    ports:
+      - "6380:6379" # Unique port

@@ -1,0 +1,17 @@
+sentence-transformers
+qdrant-client
+requests
+python-dotenv
+pydantic
+rich
+feedparser
+gitpython
+langgraph
+fastapi
+uvicorn
+pymupdf 
+groq
+pymongo
+redis
+python-multipart
+pdfplumber

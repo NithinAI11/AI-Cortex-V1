@@ -1,0 +1,57 @@
+/* ===== File: frontend/src/styles/report.css ===== */
+.report {
+  color: #374151; /* Light mode text */
+}
+.dark .report {
+  color: #d1d5db; /* Dark mode text */
+}
+
+.report h1, .report h2, .report h3 { color: #111827; }
+.dark .report h1, .dark .report h2, .dark .report h3 { color: #f9fafb; }
+
+.report h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 8px;
+}
+.dark .report h2 { border-bottom: 1px solid rgba(255,255,255,0.1); }
+
+.report p {
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.report ul {
+  padding-left: 20px;
+  margin-bottom: 16px;
+  list-style-type: disc;
+}
+
+.report strong { font-weight: 600; color: #111827; }
+.dark .report strong { color: #f3f4f6; }
+
+.report table { width: 100%; border-collapse: collapse; margin-top: 20px; margin-bottom: 24px; font-size: 14px; }
+
+.report th {
+  background: #f3f4f6;
+  text-align: left;
+  padding: 12px;
+  font-weight: 600;
+  border-bottom: 1px solid #e5e7eb;
+}
+.dark .report th {
+  background: rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color: #e5e7eb;
+}
+
+.report td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+.dark .report td {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
